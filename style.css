@@ -1,0 +1,318 @@
+body {
+    background-color: #1A1A1A;
+    color: #eaeaea;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 20px;
+
+    margin: 0;
+    padding: 18px;
+}
+
+section {
+    background-color: #2A2A2A;
+
+    border: 1px solid #444444;
+    border-radius: 12px;
+
+    padding: 12px 14px;
+    margin-bottom: 25px;
+}
+
+
+h1 {
+    margin-top: 10px;
+    color: #FFD34D;
+}
+
+h2 {
+    margin-top: 0;
+    color: #FFD34D;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #8BC6FF;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* 리스트 */
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 4px 0;
+    padding-left: 10px;
+}
+
+li {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* 박스 온오프 */
+.task {
+    background-color: #353535;
+    border: 1px solid #555;
+    border-radius: 10px;
+
+    padding: 10px 12px;
+    margin: 1px 0;
+
+    cursor: pointer;
+    user-select: none;
+
+    transition: all 0.2s ease;
+}
+
+.task:hover {
+    background-color: #4A4A4A;
+}
+
+.task.done {
+    background-color: #202020;
+    color: #777;
+
+    text-decoration: line-through;
+}
+
+/* 레이아웃 */
+.top-row {
+    display: flex;
+    gap: 20px;
+
+    align-items: flex-start;
+}
+
+.bottom-row {
+    display: flex;
+    gap: 20px;
+
+    align-items: flex-start;
+}
+
+#dailyList {
+    flex:1;
+}
+
+#weeklyList {
+    flex:1.5;
+}
+
+.bottom-row section {
+    flex: 1;
+}
+
+
+/* 초기화 */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+
+.section-header h2 {
+    margin: 0;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.header-buttons button {
+    background: #3b3b3b;
+    color: white;
+
+    border: 1px solid #666;
+    border-radius: 8px;
+
+    padding: 6px 12px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+
+/* 숙제 추가 */
+.add-task-box {
+    margin-top: 15px;
+    gap: 10px;
+    display: flex;
+}
+
+.add-task-box.hidden {
+    display: none;
+}
+
+.task-input {
+    flex: 1;
+
+    background: #353535;
+    color: white;
+
+    border: 1px solid #555;
+    border-radius: 8px;
+
+    padding: 8px 10px;
+}
+
+.confirm-add-btn {
+    background: #3b3b3b;
+    color: white;
+
+    border: 1px solid #666;
+    border-radius: 8px;
+
+    padding: 8px 12px;
+}
+
+
+.custom-task {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-task-btn {
+    background: transparent;
+
+    border: none;
+    color: #999;
+    cursor: pointer;
+
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.delete-task-btn:hover {
+    color: #ff5c5c;
+}
+
+.header-buttons button:hover {
+    background-color: #4A4A4A;
+}
+
+
+/* 표시 */
+
+.task.hidden-task {
+    display: none;
+}
+
+.edit-mode .task.hidden-task {
+    display: flex;
+    opacity: 0.35;
+}
+
+.visibility-btn {
+    display: none;
+}
+
+.edit-mode .visibility-btn {
+    display: block;
+}
+
+.edit-mode {
+    outline: 2px solid #FFD34D;
+}
+
+.edit-mode show-btn {
+    outline: 2px solid #FFD34D;
+}
+
+
+
+
+
+.title-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.title-bar h1 {
+    margin: 0;
+}
+
+.title-info {
+    color: #8BC6FF;
+    font-size: 18px;
+    white-space: pre-line;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .top-row,
+    .bottom-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .top-row section,
+    .bottom-row section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    .header-buttons button,
+    .confirm-add-btn {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    .task {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .add-task-box {
+        flex-direction: column;
+    }
+
+    .task-input,
+    .confirm-add-btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
