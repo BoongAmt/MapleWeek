@@ -497,6 +497,1384 @@ const placeholders = [
 
 
 
+const songs = [
+    {
+        title: "ユメニマデ(꿈에서까지)",
+        artist: "ゆんすけ(윤스케)"
+    },
+    {
+        title: "ラブパラ(러브파라)",
+        artist: "DECO*27"
+    },
+    {
+        title: "妄想税(망상세)",
+        artist: "DECO*27"
+    },
+    {
+        title: "ゴーストルール(고스트 룰)",
+        artist: "DECO*27"
+    },
+    {
+        title: "妄想感傷代償連盟(망상감상대상연맹)",
+        artist: "DECO*27"
+    },
+    {
+        title: "ヒバナ(히바나)",
+        artist: "DECO*27"
+    },
+    {
+        title: "乙女解剖(소녀해부)",
+        artist: "DECO*27"
+    },
+    {
+        title: "アンドロイドガール(안드로이드 걸)",
+        artist: "DECO*27"
+    },
+    {
+        title: "ポジティブ・パレード(포지티브 퍼레이드)",
+        artist: "DECO*27"
+    },
+    {
+        title: "ヴァンパイア(뱀파이어)",
+        artist: "DECO*27"
+    },
+    {
+        title: "シンデレラ(신데렐라)",
+        artist: "DECO*27"
+    },
+    {
+        title: "ジレンマ(딜레마)",
+        artist: "DECO*27"
+    },
+    {
+        title: "ボルテッカー(볼트태클)",
+        artist: "DECO*27"
+    },
+    {
+        title: "モニタリング(모니터링)",
+        artist: "DECO*27"
+    },
+    {
+        title: "チェリーポップ(체리 팝)",
+        artist: "DECO*27"
+    },
+    {
+        title: "粛清マーチ(숙청 행진)",
+        artist: "DECO*27"
+    },  
+    {
+        title: "偽りの幕を引いて(거짓의 막을 내리고)",
+        artist: "Kine Lune"
+    },
+    {
+        title: "ニルポスト(Nilpost)",
+        artist: "Kine Lune"
+    },
+    {
+        title: "ポゼス(Posses)",
+        artist: "Kine Lune"
+    },
+    {
+        title: "MTMTM",
+        artist: "TAK"
+    },
+    {
+        title: "PPPP",
+        artist: "TAK"
+    },
+    {
+        title: "ミジ子の恋(미지코의 사랑)",
+        artist: "iyowa"
+    },
+    {
+        title: "水死体にもどらないで(익사체로 돌아가지 말아줘)",
+        artist: "iyowa"
+    },
+    {
+        title: "わたしは禁忌(나는 금기)",
+        artist: "iyowa"
+    },
+    {
+        title: "IMAWANOKIWA",
+        artist: "iyowa"
+    },
+    {
+        title: "黄金数(황금수)",
+        artist: "iyowa"
+    },
+    {
+        title: "1000年生きてる(1000년 살고 있어)",
+        artist: "iyowa"
+    },
+    {
+        title: "オーバー！(오버!)",
+        artist: "iyowa"
+    },
+    {
+        title: "あだぽしゃ(애디포시어)",
+        artist: "iyowa"
+    },
+    {
+        title: "うらぽしゃ(우라포시어)",
+        artist: "iyowa"
+    },
+    {
+        title: "きゅうくらりん(두근 어질)",
+        artist: "iyowa"
+    },
+    {
+        title: "パジャミィ(파자미)",
+        artist: "iyowa"
+    },
+    {
+        title: "異星にいこうね(다른 별에 가자)",
+        artist: "iyowa"
+    },
+    {
+        title: "AKUMA!",
+        artist: "iyowa"
+    },
+    {
+        title: "熱異常(열이상)",
+        artist: "iyowa"
+    },
+    {
+        title: "頬が乾くまで(뺨이 마를 때까지)",
+        artist: "iyowa"
+    },
+    {
+        title: "地球の裏(지구의 뒷면)",
+        artist: "iyowa"
+    },
+    {
+        title: "ももいろの鍵(복숭아색 열쇠)",
+        artist: "iyowa"
+    },
+    {
+        title: "散歩の邪魔(산책의 방해)",
+        artist: "iyowa"
+    },
+    {
+        title: "灰色の靴(잿빛 구두)",
+        artist: "iyowa"
+    },
+    {
+        title: "海辺の電話ボックス(해변의 전화박스)",
+        artist: "MIMI"
+    },
+    {
+        title: "水音とカーテン(물소리와 커튼)",
+        artist: "MIMI"
+    },
+    {
+        title: "マシュマリー(마슈마리)",
+        artist: "MIMI"
+    },
+    {
+        title: "何もない様な(아무것도 없는 듯한)",
+        artist: "MIMI"
+    },
+    {
+        title: "ルルージュ(르 루쥬)",
+        artist: "MIMI"
+    },
+    {
+        title: "いっせーのーで(하나 둘 셋에)",
+        artist: "MIMI"
+    },
+    {
+        title: "くうになる(텅 비어가)",
+        artist: "MIMI"
+    },
+    {
+        title: "風鈴歌(풍경가)",
+        artist: "MIMI"
+    },
+    {
+        title: "SorrowChat",
+        artist: "MIMI"
+    },
+    {
+        title: "モデラト(모데라토)",
+        artist: "MIMI"
+    },
+    {
+        title: "FLOAT",
+        artist: "MIMI"
+    },
+    {
+        title: "ヒミツ(비밀)",
+        artist: "MIMI"
+    },
+    {
+        title: "最愛人生ランナー(최애 인생 러너)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "イナイイナイ依存症(없어 없어 의존증)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ヒトサマアレルギー(인간님 알레르기)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "セイデンキニンゲン(정전기 인간)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "失敗作少女(실패작 소녀)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "アルカリレットウセイ(알칼리 열등생)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ココロナンセンス(마음 넌센스)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "レミングミング(레밍밍)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "バラバラココロ(흐트러진 마음)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ベノム(베놈)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "アンヘル(앙헬)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ルマ(루마)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "アイ情劣等生(애정 열등생)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ダーリンダンス(달링 댄스)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "カーニバルハッピー(카니발 해피)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ローラー(룰러)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "メロメロイド(헤롱헤롱로이드)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "バグ(버그)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "メンタルチェンソー(멘탈 체인소)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "マリオネ(마리오네)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "アンハッピーバースデイ(언해피 버스데이)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "マイナスレッテル(마이너스 꼬리표)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "マグメル(마그멜)",
+        artist: "Kairiki bear"
+    },
+    {
+        title: "ショコラティヱ(쇼콜라티에)",
+        artist: "Lapix"
+    },
+    {
+        title: "分かっちゃいないね(모르는구나)",
+        artist: "monet"
+    },
+    {
+        title: "アイスクリームマジック(아이스크림 매직)",
+        artist: "雪乃イト(유키노 이토)"
+    },
+    {
+        title: "空回りライブラリ(공회전 라이브러리)",
+        artist: "雪乃イト(유키노 이토)"
+    },
+    {
+        title: "ʚ ♡⃛ ɞ",
+        artist: "yume."
+    },
+    {
+        title: "怪電話(괴전화)",
+        artist: "r-906"
+    },
+    {
+        title: "匙ノ咒(숟가락의 저주)",
+        artist: "r-906"
+    },
+    {
+        title: "モノクロセンス(모노크롬 센스)",
+        artist: "r-906"
+    },
+    {
+        title: "三日月ステップ(초승달 스텝)",
+        artist: "r-906"
+    },
+    {
+        title: "ノウナイディスコ(뇌내 디스코)",
+        artist: "r-906"
+    },
+    {
+        title: "まにまに(뜻대로)",
+        artist: "r-906"
+    },
+    {
+        title: "スーパーノヴァ(슈퍼노바)",
+        artist: "r-906"
+    },
+    {
+        title: "プシ(프시)",
+        artist: "r-906"
+    },
+    {
+        title: "JUMPIN’ OVER !",
+        artist: "r-906"
+    },
+    {
+        title: "Catchy !?",
+        artist: "r-906"
+    },
+    {
+        title: "あなたしか見えないの(당신밖에 보이지 않아)",
+        artist: "r-906"
+    },
+    {
+        title: "パノプティコン(판옵티콘)",
+        artist: "r-906"
+    },
+    {
+        title: "Summering",
+        artist: "じん(진)"
+    },
+    {
+        title: "カゲロウデイズ(아지랑이 데이즈)",
+        artist: "じん(진)"
+    },
+    {
+        title: "チルドレンレコード(칠드런 레코드)",
+        artist: "じん(진)"
+    },
+    {
+        title: "夜咄ディセイブ(야화 디세이브)",
+        artist: "じん(진)"
+    },
+    {
+        title: "サマータイムレコード(서머타임 레코드)",
+        artist: "じん(진)"
+    },
+    {
+        title: "アディショナルメモリー(에디셔널 메모리)",
+        artist: "じん(진)"
+    },
+    {
+        title: "イマジナリーリロード(이매지너리 리로드)",
+        artist: "じん(진)"
+    },
+    {
+        title: "マイファニーウィークエンド(마이 퍼니 위켄드)",
+        artist: "じん(진)"
+    },
+    {
+        title: "新人類(신인류)",
+        artist: "じん(진), marasy8, 堀江晶太(호리에 쇼타)"
+    },
+    {
+        title: "SnowMix♪",
+        artist: "marasy8"
+    },
+    {
+        title: "CODE-87404104:RUINS",
+        artist: "藤末樹(후지스에 미키)"
+    },
+    {
+        title: "マーシャル・マキシマイザー(마셜 맥시마이저)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "終焉逃避行(종언도피행)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "アンプランド・アポトーシス(언플랜드 아포토시스)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "カノン(카논)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "再見ロマネスク(짜이찌엔 로마네스크)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "リアライズ(리얼라이즈)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "アンテナ39(안테나 39)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "リトライ(리트라이)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "ユニ(유니)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "撫でんな(쓰다듬지 마)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "ファブリック・フラワー(패브릭 플라워)",
+        artist: "柊マグネタイト(히이라기 마그네타이트)"
+    },
+    {
+        title: "TYQOON",
+        artist: "Sohbana"
+    },
+    {
+        title: "退廃的人生讃歌(퇴폐적 인생 찬가)",
+        artist: "Ro2noki"
+    },
+    {
+        title: "アマチュア音楽やめられねぇんだわ(아마추어 음악 그만둘 수 없어)",
+        artist: "Ro2noki"
+    },
+    {
+        title: "雁首、揃えてご機嫌よう(머리, 다 함께 평안하시길)",
+        artist: "卯花ロク(우카 로쿠)"
+    },
+    {
+        title: "オーダー、仰せのままに(오더, 분부대로)",
+        artist: "卯花ロク(우카 로쿠)"
+    },
+    {
+        title: "ロスト、シュタイナー(로스트, 슈타이너)",
+        artist: "卯花ロク(우카 로쿠)"
+    },
+    {
+        title: "ワーストリグレット(워스트 리그렛)",
+        artist: "youまん(you맨)"
+    },
+    {
+        title: "DUCTFOOD",
+        artist: "yowanecity"
+    },
+    {
+        title: "赤いカラスが鳴いたから(붉은 까마귀가 울었으니까)",
+        artist: "NY channel"
+    },
+    {
+        title: "ハウラー(하울러)",
+        artist: "Fushi"
+    },
+    {
+        title: "アルケヱ(아르케)",
+        artist: "Fushi"
+    },
+    {
+        title: "フロムナインス(프롬 나인스)",
+        artist: "Fushi"
+    },
+    {
+        title: "ヴァニティ(바니티)",
+        artist: "Fushi"
+    },
+    {
+        title: "エラードミー(에러드 미)",
+        artist: "Fushi"
+    },
+    {
+        title: "少女ケシゴム(소녀 지우개)",
+        artist: "MARETU"
+    },
+    {
+        title: "コインロッカーベイビー(코인 로커 베이비)",
+        artist: "MARETU"
+    },
+    {
+        title: "脳内革命ガール(뇌내혁명 걸)",
+        artist: "MARETU"
+    },
+    {
+        title: "パケットヒーロー(패킷 히어로)",
+        artist: "MARETU"
+    },
+    {
+        title: "スクラマイズ(스크러마이즈)",
+        artist: "MARETU"
+    },
+    {
+        title: "スヂ(줄거리)",
+        artist: "MARETU"
+    },
+    {
+        title: "マエガミスト(마에가미스트)",
+        artist: "MARETU"
+    },
+    {
+        title: "ホワイトハッピー(화이트 해피)",
+        artist: "MARETU"
+    },
+    {
+        title: "うみなおし(다시 낳기)",
+        artist: "MARETU"
+    },
+    {
+        title: "ダーリン(달링)",
+        artist: "MARETU"
+    },
+    {
+        title: "コウカツ(교활)",
+        artist: "MARETU"
+    },
+    {
+        title: "ゴキブリの味(바퀴벌레의 맛)",
+        artist: "MARETU"
+    },
+    {
+        title: "しう(시우)",
+        artist: "MARETU"
+    },
+    {
+        title: "ぴんく(핑크)",
+        artist: "MARETU"
+    },
+    {
+        title: "ニューダーリン(뉴 달링)",
+        artist: "MARETU"
+    },
+    {
+        title: "あいしていたのに(사랑하고 있었는데)",
+        artist: "MARETU"
+    },
+    {
+        title: "エンゼル92(엔젤92)",
+        artist: "MARETU"
+    },
+    {
+        title: "メルティランドナイトメア(멜티 랜드 나이트메어)",
+        artist: "はるまきごはん(하루마키고한)"
+    },
+    {
+        title: "フランケンX(프랑켄 X)",
+        artist: "はるまきごはん(하루마키고한), 煮ル果実(니루 카지츠)"
+    },
+    {
+        title: "ゼロトーキング(제로 토킹)",
+        artist: "はるまきごはん(하루마키고한)"
+    },
+    {
+        title: "エンパープル(엠퍼플)",
+        artist: "はるまきごはん(하루마키고한)"
+    },
+    {
+        title: "バッドエンドメーカー(베드 앤드 메이커)",
+        artist: "香椎モイミ(카시이 모이미)"
+    },
+    {
+        title: "キャットラビング(캣 러빙)",
+        artist: "香椎モイミ(카시이 모이미)"
+    },
+    {
+        title: "アタシ：アップデート(나:업데이트)",
+        artist: "香椎モイミ(카시이 모이미)"
+    },
+    {
+        title: "ベルコメン(벨코멘)",
+        artist: "香椎モイミ(카시이 모이미)"
+    },
+    {
+        title: "ロストアンブレラ(로스트 엄브렐라)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "ラグトレイン(래그 트레인)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "レイニーブーツ(레이니 부츠)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "ハローマリーナ(헬로 마리나)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "きみに回帰線(너에게로 회귀선)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "リレイアウター(릴레이아우터)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "電気予報(전기예보)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "絶体暗星(절체암성)",
+        artist: "稲葉曇(이나바 쿠모리)"
+    },
+    {
+        title: "ロールレスウエポン(롤리스 웨폰)",
+        artist: "稲葉曇(이나바 쿠모리), Neru"
+    },
+    {
+        title: "最凶勇者(최흉용자)",
+        artist: "DIVELA"
+    },
+    {
+        title: "METEOR",
+        artist: "DIVELA"
+    },
+    {
+        title: "すすめ！さいつよ堕天使(나아가! 최강의 타천사)",
+        artist: "DIVELA"
+    },
+    {
+        title: "救いようのない素晴らしき運命(구제불능의 멋진 운명)",
+        artist: "DIVELA"
+    },
+    {
+        title: "スーサイダーズ・ディストピア(수어사이더스 디스토피아)",
+        artist: "DIVELA"
+    },
+    {
+        title: "おどロボ(오도로보)",
+        artist: "海茶(우미챠)"
+    },
+    {
+        title: "チュルリラ・チュルリラ・ダッダッダ！(츄루리라·츄루리라·땃땃따!)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "キライ・キライ・ジガヒダイ！(싫어·싫어·자아비대!)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "チェチェ・チェック・ワンツー！(체체·체크·원투!)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "トラッシュ・アンド・トラッシュ！(트래시 앤드 트래시!)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "ビースト・ダンス(비스트 댄스)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "おどれ！VRダンス！(춤춰라! VR댄스!)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "ポジティブ・ハラスメント！！！(포지티브 해러스먼트!!!)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "うらめしヤッホー(원통해라 야호)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "ばらばらアダバナ(뿔뿔이 아다바나)",
+        artist: "和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "共犯(공범)",
+        artist: "てにをは(테니오하), 和田たけあき(와다 타케아키)"
+    },
+    {
+        title: "ヴィラン(빌런)",
+        artist: "てにをは(테니오하)"
+    },
+    {
+        title: "一角獣(일각수)",
+        artist: "てにをは(테니오하)"
+    },
+    {
+        title: "デビル(데빌)",
+        artist: "てにをは(테니오하)"
+    },
+    {
+        title: "ザネリ(쟈넬리)",
+        artist: "てにをは(테니오하)"
+    },
+    {
+        title: "ライアーダンサー(라이어 댄서)",
+        artist: "マサラダ(마사라다)"
+    },
+    {
+        title: "ミィハー(미하)",
+        artist: "Chinozo"
+    },
+    {
+        title: "レナ(레나)",
+        artist: "Chinozo"
+    },
+    {
+        title: "グッバイ宣言(굿바이 선언)",
+        artist: "Chinozo"
+    },
+    {
+        title: "シェーマ(셰마)",
+        artist: "Chinozo"
+    },
+    {
+        title: "ジェラシス(제라시스)",
+        artist: "Chinozo"
+    },
+    {
+        title: "エリート(엘리트)",
+        artist: "Chinozo"
+    },
+    {
+        title: "ニュートンダンス(뉴턴 댄스)",
+        artist: "ナユタン星人(나유탄 성인), Chinozo"
+    },
+    {
+        title: "エイリアンエイリアン(에일리언 에일리언)",
+        artist: "ナユタン星人(나유탄 성인)"
+    },
+    {
+        title: "惑星ループ(행성 루프)",
+        artist: "ナユタン星人(나유탄 성인)"
+    },
+    {
+        title: "ダンスロボットダンス(댄스 로봇 댄스)",
+        artist: "ナユタン星人(나유탄 성인)"
+    },
+    {
+        title: "太陽系デスコ(태양계 디스코)",
+        artist: "ナユタン星人(나유탄 성인)"
+    },
+    {
+        title: "金星のダンス(금성의 댄스)",
+        artist: "ナユタン星人(나유탄 성인)"
+    },
+    {
+        title: "ひみつのユーフォー(비밀의 유에프오)",
+        artist: "ナユタン星人(나유탄 성인)"
+    },
+    {
+        title: "ポジティブ☆ダンスタイム(포지티브☆댄스 타임)",
+        artist: "キノシタ(키노시타)"
+    },
+    {
+        title: "ポッピンキャンディ☆フィーバー ！(팝핀 캔디☆피버!)",
+        artist: "キノシタ(키노시타)"
+    },
+    {
+        title: "人間のくせになまいきだ(인간 주제에 건방지잖아)",
+        artist: "キノシタ(키노시타)"
+    },
+    {
+        title: "ラストリゾート(라스트 리조트)",
+        artist: "Ayase"
+    },
+    {
+        title: "幽霊東京(유령 도쿄)",
+        artist: "Ayase"
+    },
+    {
+        title: "シネマ(시네마)",
+        artist: "Ayase"
+    },
+    {
+        title: "HERO",
+        artist: "Ayase"
+    },
+    {
+        title: "クーネル・エンゲイザー(쿠네루 엔게이저)",
+        artist: "電ǂ鯨(전기고래)"
+    },
+    {
+        title: "バイロンの証明(바이런의 증명)",
+        artist: "とうかさ(토우사카)"
+    },
+    {
+        title: "最高やんK(최고야 K)",
+        artist: "yukkuriK"
+    },
+    {
+        title: "鉄錆の雨と篝火(쇠녹의 비와 횃불)",
+        artist: "よしぶる(요시부루)"
+    },
+    {
+        title: "フェイクユートピア(페이크 유토피아)",
+        artist: "mistriam"
+    },
+    {
+        title: "シャルル(샤를)",
+        artist: "バルーン(벌룬)"
+    },
+    {
+        title: "雨とペトラ(비와 페트라)",
+        artist: "バルーン(벌룬)"
+    },
+    {
+        title: "パメラ(파멜라)",
+        artist: "バルーン(벌룬)"
+    },
+    {
+        title: "花に風(꽃에 바람)",
+        artist: "バルーン(벌룬)"
+    },
+    {
+        title: "ミザン(미장)",
+        artist: "バルーン(벌룬), ぬゆり(누유리)"
+    },
+    {
+        title: "フラジール(프래질)",
+        artist: "ぬゆり(누유리)"
+    },
+    {
+        title: "フィクサー(픽서)",
+        artist: "ぬゆり(누유리)"
+    },
+    {
+        title: "命ばっかり(목숨뿐)",
+        artist: "ぬゆり(누유리)"
+    },
+    {
+        title: "ロウワー(로워)",
+        artist: "ぬゆり(누유리)"
+    },
+    {
+        title: "プロトディスコ(프로토 디스코)",
+        artist: "ぬゆり(누유리)"
+    },
+    {
+        title: "シルバーツインズ(실버 트윈즈)",
+        artist: "ぬゆり(누유리), 栗山夕璃(쿠리야마 유리)"
+    },
+    {
+        title: "フェレス(펠레스)",
+        artist: "栗山夕璃(쿠리야마 유리)"
+    },
+    {
+        title: "アナフィラキシー(아나필락시)",
+        artist: "栗山夕璃(쿠리야마 유리)"
+    },
+    {
+        title: "君色マリンスノウ(너의 색깔 마린 스노우)",
+        artist: "カルロス袴田(카를로스 하카마다)"
+    },
+    {
+        title: "ちがう!!!(달라!!!)",
+        artist: "カルロス袴田(카를로스 하카마다)"
+    },
+    {
+        title: "スーパーマーケット☆フィーバー(슈퍼마켓☆피버)",
+        artist: "カルロス袴田(카를로스 하카마다)"
+    },
+    {
+        title: "海のサーチライト(바다의 서치라이트)",
+        artist: "子牛(코우시)"
+    },
+    {
+        title: "秋の未確認生物(가을의 미확인생물)",
+        artist: "子牛(코우시)"
+    },
+    {
+        title: "再演(재연)",
+        artist: "Akali"
+    },
+    {
+        title: "産娑羅(산사라)",
+        artist: "Akali"
+    },
+    {
+        title: "アイシテナイフ(아이시테 나이프)",
+        artist: "ゐろは苹果(이로하 링고)"
+    },
+    {
+        title: "イナくなっちゃえ大作戦(DOMESTIC Revenger)",
+        artist: "みつあくま(미츠 아쿠마)"
+    },
+    {
+        title: "ショウコ隠滅、少女純潔(Virgin birth)",
+        artist: "みつあくま(미츠 아쿠마)"
+    },
+    {
+        title: "トウキョウダイバアフェイクショウ(도쿄 다이버 페이크 쇼)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "トオトロジイダウトフル(토톨로지 다우트폴)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "スイサイ／アンブレラ／ロクガツ／ドライフラワ(수채/우산/6월/드라이플라워)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "リコレクションエンドロウル(리컬렉션 엔드롤)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "ニビイロドロウレ(농회색 돌로레)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "アノニマスファンフアレ(어나니머스 팡파레)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "ヒウマノイドズヒウマニズム(휴머노이즈 휴머니즘)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "アングレイデイズ(언그레이 데이즈)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "レゾンデイトル・カレイドスコウプ(레종 데트르・칼레이도스코프)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "カルチャ(컬쳐)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "キティ(키티)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "フォニイ(포니)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "トウキョウ・シャンディ・ランデヴ(도쿄 섄디 랑데부)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "アイヴイ(아이비)",
+        artist: "ツミキ(츠미키)"
+    },
+    {
+        title: "しゃしゃてん(샤샤텐)",
+        artist: "一二三(히후미)"
+    },
+    {
+        title: "礼儀作法(예의범절)",
+        artist: "一二三(히후미)"
+    },
+    {
+        title: "踊る恐竜さん(춤추는 공룡씨)",
+        artist: "一二三(히후미)"
+    },
+    {
+        title: "結い傷な(묶인 상처인)",
+        artist: "一二三(히후미)"
+    },
+    {
+        title: "サクラノタトゥー(벚꽃 타투)",
+        artist: "ピノキオピー(피노키오피), 一二三(히후미)"
+    },
+    {
+        title: "腐れ外道とチョコレゐト(썩은 외도와 초콜릿)",
+        artist: "ピノキオピー(피노키오피)"
+    },
+    {
+        title: "ねぇねぇねぇ。(있잖아 있잖아 있잖아.)",
+        artist: "ピノキオピー(피노키오피)"
+    },
+    {
+        title: "神っぽいな(신 같네)",
+        artist: "ピノキオピー(피노키오피)"
+    },
+    {
+        title: "魔法少女とチョコレゐト(마법소녀와 초콜릿)",
+        artist: "ピノキオピー(피노키오피)"
+    },
+    {
+        title: "初音ミクの激唱(하츠네 미쿠의 격창)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "リアル初音ミクの消失(리얼 하츠네 미쿠의 소실)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "R.I.P.ゴシップの海(R.I.P.가십의 바다)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "初音天地開闢神話(하츠네 천지개벽 신화)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "マシンガンポエムドール(머신건 포엠 돌)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "ロースピードフェイクリリック(로우 스피드 페이크 리릭)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "終点(종점)",
+        artist: "cosMo@暴走P(cosMo@폭주P)"
+    },
+    {
+        title: "ロミオとシンデレラ(로미오와 신데렐라)",
+        artist: "doriko"
+    },
+    {
+        title: "エスペランサ(에스페란사)",
+        artist: "Dopam!ne"
+    },
+    {
+        title: "シビュラ(시빌라)",
+        artist: "wotaku"
+    },
+    {
+        title: "ジェヘナ(게헨나)",
+        artist: "wotaku"
+    },
+    {
+        title: "ホロン(홀론)",
+        artist: "wotaku"
+    },
+    {
+        title: "コントロール(컨트롤)",
+        artist: "wotaku"
+    },
+    {
+        title: "アンティーク(앤티크)",
+        artist: "wotaku"
+    },
+    {
+        title: "ヴィシュヌ(비슈누)",
+        artist: "wotaku"
+    },
+    {
+        title: "業病(업병)",
+        artist: "wotaku"
+    },
+    {
+        title: "世界不正解(세계부정해)",
+        artist: "wotaku"
+    },
+    {
+        title: "アルセーヌ(아르센)",
+        artist: "wotaku"
+    },
+    {
+        title: "ファントム(팬텀)",
+        artist: "wotaku"
+    },
+    {
+        title: "なんだっけ！？(뭐였더라!?)",
+        artist: "タケノコ少年(죽순소년)"
+    },
+    {
+        title: "そうだった！！(그랬지!!)",
+        artist: "タケノコ少年(죽순소년)"
+    },
+    {
+        title: "ん？(응?)",
+        artist: "タケノコ少年(죽순소년)"
+    },
+    {
+        title: "シンデレラコンプレックス(신데렐라 컴플렉스)",
+        artist: "タケノコ少年(죽순소년)"
+    },
+    {
+        title: "ラストアリス(라스트 앨리스)",
+        artist: "タケノコ少年(죽순소년)"
+    },
+    {
+        title: "ヒアソビ(불장난)",
+        artist: "Camellia"
+    },
+    {
+        title: "生命性シンドロウム(생명선 신드롬)",
+        artist: "Camellia"
+    },
+    {
+        title: "感情ディシーブ(감정 디시브)",
+        artist: "ろーある(로아루)"
+    },
+    {
+        title: "あめだま(눈깔사탕)",
+        artist: "PEPOYO"
+    },
+    {
+        title: "『±0』",
+        artist: "PEPOYO"
+    },
+    {
+        title: "紙避行記(종이피행기)",
+        artist: "PEPOYO"
+    },
+    {
+        title: "桃源郷で救済を(도원향에 구제를)",
+        artist: "PEPOYO"
+    },
+    {
+        title: "ハイドレンジア(하이드렌지아)",
+        artist: "LonePi"
+    },
+    {
+        title: "水死体は恋したい(익사체는 사랑하고 싶어)",
+        artist: "LonePi"
+    },
+    {
+        title: "エゴロック(에고 록)",
+        artist: "すりぃ(스리이)"
+    },
+    {
+        title: "テレキャスタービーボーイ(텔레캐스터 비보이)",
+        artist: "すりぃ(스리이)"
+    },
+    {
+        title: "ジャンキーナイトタウンオーケストラ(정키 나이트 타운 오케스트라)",
+        artist: "すりぃ(스리이)"
+    },
+    {
+        title: "カメレオン(카멜레온)",
+        artist: "すりぃ(스리이)"
+    },
+    {
+        title: "フクロウさん(부엉이씨)",
+        artist: "すりぃ(스리이)"
+    },
+    {
+        title: "バニー(바니)",
+        artist: "すりぃ(스리이)"
+    },
+    {
+        title: "レリギオス(렐리기오스)",
+        artist: "hanerusakana"
+    },
+    {
+        title: "KING",
+        artist: "Kanaria"
+    },
+    {
+        title: "エンヴィーベイビー(엔비 베이비)",
+        artist: "Kanaria"
+    },
+    {
+        title: "アイデンティティ(아이덴티티)",
+        artist: "Kanaria"
+    },
+    {
+        title: "ショウタイム・ルーラー(쇼타임 룰러)",
+        artist: "烏屋茶房(카라스야사보우)"
+    },
+    {
+        title: "バイメーバイメー(바이메 바이메)",
+        artist: "마이키P"
+    },
+    {
+        title: "アンチジョーカー(안티 조커)",
+        artist: "마이키P"
+    },
+    {
+        title: "このふざけた素晴らしき世界は、僕の為にある(이 실없이 멋진 세계는, 나를 위해 있어)",
+        artist: "n.k"
+    },
+    {
+        title: "オルソドクシア(오르소독시아)",
+        artist: "ぐちり(구치리)"
+    },
+    {
+        title: "アブノーマリティ･ダンシンガール(어브노멀리티 댄싱 걸)",
+        artist: "ぐちり(구치리)"
+    },
+    {
+        title: "シャーデンフロイデ(샤덴프로이데)",
+        artist: "ぐちり(구치리)"
+    },
+    {
+        title: "オクタゴン(옥타곤)",
+        artist: "titana"
+    },
+    {
+        title: "メンヘラじゃないもん!(멘헤라가 아닌 걸!)",
+        artist: "Isana"
+    },
+    {
+        title: "ラブドゥスムージー(러브드 스무디)",
+        artist: "Isana"
+    },
+    {
+        title: "カナリ(카나리)",
+        artist: "INE"
+    },
+    {
+        title: "ジンクス(징크스)",
+        artist: "RuLu"
+    },
+    {
+        title: "アスノヨゾラ哨戒班(내일의 밤하늘 초계반)",
+        artist: "Orangestar"
+    },
+    {
+        title: "Alice in 冷凍庫(Alice in 냉동고)",
+        artist: "Orangestar"
+    },
+    {
+        title: "回る空うさぎ(회전하는 하늘 토끼)",
+        artist: "Orangestar"
+    },
+    {
+        title: "DAYBREAK FRONTLINE",
+        artist: "Orangestar"
+    },
+    {
+        title: "Henceforth",
+        artist: "Orangestar"
+    },
+    {
+        title: "Surges",
+        artist: "Orangestar"
+    },
+    {
+        title: "トラフィック・ジャム(트래픽 잼)",
+        artist: "煮ル果実(니루 카지츠)"
+    },
+    {
+        title: "クノイチでも恋がしたい(쿠노이치라도 사랑이 하고 싶어)",
+        artist: "みきとP(미키토P)"
+    },
+    {
+        title: "バレリーコ(발레리코)",
+        artist: "みきとP(미키토P)"
+    },
+    {
+        title: "39みゅーじっく！(39뮤직!)",
+        artist: "みきとP(미키토P)"
+    },
+    {
+        title: "ロキ(로키)",
+        artist: "みきとP(미키토P)"
+    },
+    {
+        title: "少女レイ(소녀 레이)",
+        artist: "みきとP(미키토P)"
+    },
+    {
+        title: "ミルククラウン・オン・ソーネチカ(밀크 크라온 온 소네치카)",
+        artist: "ユジー(유지)"
+    },
+    {
+        title: "対象x(대상x)",
+        artist: "ユリイ・カノン(유리이 카논)"
+    },
+    {
+        title: "超常現象(초상현상)",
+        artist: "ろくろ(로쿠로)"
+    },
+    {
+        title: "セカイ再信仰特区(세계 재신앙 특구)",
+        artist: "ろくろ(로쿠로)"
+    },
+    {
+        title: "スロウダウナー(슬로우 다우너)",
+        artist: "ろくろ(로쿠로)"
+    },
+    {
+        title: "悪役にキスシーンを(악역에게 키스신을)",
+        artist: "40meterP"
+    },
+    {
+        title: "恋愛裁判(연애재판)",
+        artist: "40meterP"
+    },
+    {
+        title: "ねぇ、どろどろさん(저기, 질척질척씨)",
+        artist: "YASUHIRO"
+    },
+    {
+        title: "ゴー・トゥ・大都会(고 투 대도시)",
+        artist: "月裏(츠키리)"
+    },
+    {
+        title: "さよならテンダー(안녕히 텐더)",
+        artist: "koyori"
+    },
+    {
+        title: "テオ(테오)",
+        artist: "Omoi"
+    },
+    {
+        title: "君が飛び降りるのなら(네가 뛰어내린다면)",
+        artist: "Omoi"
+    },
+    {
+        title: "グリーンライツ・セレナーデ(그린라이츠 세레나데)",
+        artist: "Omoi"
+    },
+    {
+        title: "ミスリード・ミスリード(미스리드 미스리드)",
+        artist: "Omoi"
+    },
+    {
+        title: "マトリョシカ(마트료시카)",
+        artist: "ハチ(하치)"
+    },
+    {
+        title: "ドーナツホール(도넛 홀)",
+        artist: "ハチ(하치)"
+    },
+    {
+        title: "気まぐれメルシィ(변덕쟁이 메르시)",
+        artist: "八王子P(하치오지P)"
+    },
+    {
+        title: "Gimme×Gimme",
+        artist: "Giga, 八王子P(하치오지P)"
+    },
+    {
+        title: "裏表ラバーズ(겉과 속의 러버즈)",
+        artist: "wowaka"
+    },
+    {
+        title: "ローリンガール(롤링 걸)",
+        artist: "wowaka"
+    },
+    {
+        title: "ワールズエンド・ダンスホール(월즈 엔드 댄스홀)",
+        artist: "wowaka"
+    },
+    {
+        title: "アンハッピー・リフレイン(언해피 리프레인)",
+        artist: "wowaka"
+    },
+    {
+        title: "アンノウン・マザーグース(언노운 마더 구스)",
+        artist: "wowaka"
+    },
+];
 
 
 
@@ -634,12 +2012,37 @@ let lastPlaceholder = -1;
 
 function randomPlaceholder(taskInput) {
 
+    // 노래 추천 가중치
+    const songWeight = 22;
+
+    const total =
+        placeholders.length + songWeight;
+
     let index;
 
     do {
-        index = Math.floor(Math.random() * placeholders.length);
-    } while (index === lastPlaceholder && placeholders.length > 1);
+        index = Math.floor(Math.random() * total);
+    } while (
+        index === lastPlaceholder &&
+        index < placeholders.length &&
+        placeholders.length > 1
+    );
 
-    lastPlaceholder = index;
-    taskInput.placeholder = placeholders[index];
+    // 노래 추천
+    if (index >= placeholders.length) {
+
+        const song =
+            songs[Math.floor(Math.random() * songs.length)];
+
+        taskInput.placeholder =
+            `노래 추천 - ${song.title} / ${song.artist}`;
+
+        lastPlaceholder = -1;
+    }
+    // 일반 문구
+    else {
+
+        taskInput.placeholder = placeholders[index];
+        lastPlaceholder = index;
+    }
 }
