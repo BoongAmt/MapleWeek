@@ -371,7 +371,7 @@ const placeholders = [
     "리빙 포인트: 챌섭 렌은 거르자",
     "그래서 지vs이 누가 이김?",
     "실례가 안된다면 아이스크림 하나만 사주십시오",
-    "외유내강(왜 유죄예요 내가 강간했어요?)",
+    "외유내강(외 유죄예요 내가 강간했어요?)",
     "7+4가 11인 이유는? 질싸하면 두줄이 뜨기 때문",
     "애국보수(애널에선 국물줄줄 보지에선 수둔폭발)",
     "보지가 딸꾹질을 하면? 질꺽질꺽",
@@ -567,11 +567,19 @@ const songs = [
         artist: "Kine Lune"
     },
     {
-        title: "ニルポスト(Nilpost)",
+        title: "ニルポスト(닐포스트)",
         artist: "Kine Lune"
     },
     {
-        title: "ポゼス(Posses)",
+        title: "ポゼス(포제스)",
+        artist: "Kine Lune"
+    },
+    {
+        title: "時に月(때때로 달)",
+        artist: "Kine Lune"
+    },
+    {
+        title: "嫉妬心(질투심)",
         artist: "Kine Lune"
     },
     {
@@ -1471,10 +1479,6 @@ const songs = [
         artist: "ツミキ(츠미키)"
     },
     {
-        title: "トウキョウ・シャンディ・ランデヴ(도쿄 섄디 랑데부)",
-        artist: "ツミキ(츠미키)"
-    },
-    {
         title: "アイヴイ(아이비)",
         artist: "ツミキ(츠미키)"
     },
@@ -1616,6 +1620,10 @@ const songs = [
     },
     {
         title: "生命性シンドロウム(생명선 신드롬)",
+        artist: "Camellia"
+    },
+    {
+        title: "ベースラインやってる？笑(베이스라인 하고있니? ㅋ)",
         artist: "Camellia"
     },
     {
@@ -1874,6 +1882,578 @@ const songs = [
         title: "アンノウン・マザーグース(언노운 마더 구스)",
         artist: "wowaka"
     },
+    {
+        title: "恋のfrog(사랑의 frog)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "I＋イデア(I＋idea)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "桃色の血潮(복숭앗빛 핏물)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "醜形恐怖症(추형공포증)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "永眠のすゝめ(영면의 권장)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "リードコントロール(리드 컨트롤)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "不純喫茶(불순끽다)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "あなたで最後(당신으로 마지막)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "月夜の庭にて(달밤의 정원에서)",
+        artist: "なるみや(나루미야)"
+    },
+    {
+        title: "電波的妄想美少女Q(전파적 망상 미소녀 Q) Nanahira ver.",
+        artist: "MARON"
+    },
+    {
+        title: "幸福絶頂!! りむ・で・らてんと☆(행복절정!! RIM・de・LA CENT☆)",
+        artist: "MARON"
+    },
+    {
+        title: "オモイデ・パッチワーク・サービス(오모이데 패치워크 서비스)",
+        artist: "ミツキヨ(미츠키요), t+pazolite"
+    },
+    {
+        title: "Party in the HOLLOWood",
+        artist: "t+pazolite"
+    },
+    {
+        title: "熱笑(네츠와라이)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "誰かのための言葉(누군가를 위한 말)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "モンダイナイトリッパー！(몬다이 나이트 리퍼!)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "エッビーナースデイ(에비 너스 데이)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "だじゃれくりえぃしょん(다쟈레 크리에이션)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "パラレルサーチライト(페러렐 서치라이트)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "ゆびきりをつたえて(손가락 약속을 전하고)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "ごほうびトキメキモード(보상 두근두근 모드)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "弱酸性ラジオブレイク(약산성 라디오 브레이크)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "デビルの証明(악마의 증명)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "いっかい書いてさようなら(한 번 쓰고 작별인사)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "ファンタスティック・エボリューション(판타스틱 에볼루션)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "足跡(발자국)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "ノーゲスト、イン、ザ、テアトロ。(노 게스트, 인, 더, 테아트로)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "きらめく絆創膏(반짝이는 반창고)",
+        artist: "名取さな(나토리 사나)"
+    },
+    {
+        title: "インスタント彼女(인스턴트 여자친구)",
+        artist: "esoragoto"
+    },
+    {
+        title: "おしゃべりな花を添えて(수다스러운 꽃을 곁들여서)",
+        artist: "桃寝ちのい(모모네 치노이)"
+    },
+    {
+        title: "夜に駆ける(밤을 달리다)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "たぶん(아마도)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "群青(군청)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "怪物(괴물)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "優しい彗星(상냥한 혜성)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "大正浪漫(다이쇼 로망)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "ツバメ(제비)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "ミスター(미스터)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "祝福(축복)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "アドベンチャー(어드벤처)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "セブンティーン(세븐틴)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "勇者(용사)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "UNDEAD",
+        artist: "YOASOBI"
+    },
+    {
+        title: "Watch me!",
+        artist: "YOASOBI"
+    },
+    {
+        title: "劇上(극상)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "あの夢をなぞって(그 꿈을 덧그리며)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "ハルジオン(봄망초)",
+        artist: "YOASOBI"
+    },
+    {
+        title: "マンネリライフ(매너리즘 라이프)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "ダダダダ天使(다다다다 천사)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "んなわけないけど(그럴 리가 없지만)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "インスタントヘヴン(인스턴트 헤븐)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "ダメレオンハート(다멜레온 하트)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "チューリングラブ(튜링 러브)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "奇縁ロマンス(기연 로맨스)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "明日の私に幸あれ(내일의 나에게 행복 있으리)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "ムリムリ進化論(무리무리 진화론)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "完全放棄宣言(완전포기선언)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "Flying",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "全部ホントで全部ウソ(전부 진짜에 전부 거짓말)",
+        artist: "ナナヲアカリ(나나오아카리)"
+    },
+    {
+        title: "Faraway",
+        artist: "Miyumin"
+    },
+    {
+        title: "ハルカゼ(봄바람)",
+        artist: "Miyumin"
+    },
+    {
+        title: "嫌々(마지못해) 理芽(RIM) ver.",
+        artist: "HALVES"
+    },
+    {
+        title: "ダンガイマインド(단가이 마인드)",
+        artist: "棗いつき(잇츠키 나츠메)"
+    },
+    {
+        title: "春嵐(춘람)",
+        artist: "john"
+    },
+    {
+        title: "bookmarks",
+        artist: "Sizuk"
+    },
+    {
+        title: "秒針を噛む(초침을 깨물다)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "ヒューマノイド(휴머노이드)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "お勉強しといてよ(공부해 둬)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "MILABO",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "正しくなれない(올바르게 될 수 없어)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "はゔぁ(해브 어)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "綺羅キラー(키라 킬러)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "残機(잔기)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "あいつら全員同窓会(저 녀석들 전원 동창회)",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "TAIDADA",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "シェードの埃は延長(쉐이드 커튼 위 먼지는 쌓이는 중",
+        artist: "ずっと真夜中でいいのに。(계속 한밤중이면 좋을 텐데.)"
+    },
+    {
+        title: "こっち向いてほい(이쪽을 봐줘)",
+        artist: "asmi"
+    },
+    {
+        title: "かりそめ(덧없음)",
+        artist: "ꌚꋬ野 ゐㇷ゙ ｷ(사노 이부키)"
+    },
+    {
+        title: "メアリー・スーの憂鬱(메리 수의 우울)",
+        artist: "鳥籠の中で僕たちは、(새장 안에서 우리들은,)"
+    },
+    {
+        title: "propose",
+        artist: "9Lana"
+    },
+    {
+        title: "きゅびずむ(큐비즘)",
+        artist: "原口 沙輔(하라구치 사스케)"
+    },
+    {
+        title: "きゅびびびびずむ(큐비비비비즘)",
+        artist: "原口 沙輔(하라구치 사스케)"
+    },
+    {
+        title: "雷鳴(뇌명)",
+        artist: "lapix"
+    },
+    {
+        title: "deDevil",
+        artist: "lapix"
+    },
+    {
+        title: "ルナティッククレイジー(루나틱 크레이지)",
+        artist: "lapix"
+    },
+    {
+        title: "メリーバッド乙女(메리 배드 소녀)",
+        artist: "lapix"
+    },
+    {
+        title: "コンティニュー！(컨티뉴!)",
+        artist: "lapix"
+    },
+    {
+        title: "ゲシュタルト(게슈탈트)",
+        artist: "花譜(카후)"
+    },
+    {
+        title: "やっぱり雨は降るんだね(역시 비는 내리네)",
+        artist: "ツユ(츠유)"
+    },
+    {
+        title: "くらべられっ子(비교당하는 아이)",
+        artist: "ツユ(츠유)"
+    },
+    {
+        title: "いつかオトナになれるといいね。(언젠가 어른이 될 수 있으면 좋겠네.)",
+        artist: "ツユ(츠유)"
+    },
+    {
+        title: "それでも雨は降るんだね(그럼에도 비는 내리네)",
+        artist: "ツユ(츠유)"
+    },
+    {
+        title: "ディメンション(디멘션)",
+        artist: "ヰ世界情緒(이세계정서)"
+    },
+    {
+        title: "パンドラコール(판도라 콜)",
+        artist: "ヰ世界情緒(이세계정서)"
+    },
+    {
+        title: "斯く美しき造花(이렇게나 아름다운 조화)",
+        artist: "ヰ世界情緒(이세계정서)"
+    },
+    {
+        title: "TOXY!",
+        artist: "KUJIRAGI"
+    },
+    {
+        title: "アンビバレント(앰비벌런트)",
+        artist: "Uru"
+    },
+    {
+        title: "ビビッド(비비드)",
+        artist: "tayori"
+    },
+    {
+        title: "愛包ダンスホール(사랑 파이 댄스홀)",
+        artist: "HIMEHINA"
+    },
+    {
+        title: "White",
+        artist: "ルリエ(루리에)"
+    },
+    {
+        title: "LET’S TOAST!!",
+        artist: "ななひら(나나히라)"
+    },
+    {
+        title: "ハロウィンのパリピに負けたくないうた(할로윈의 파티피플에 지고싶지 않은 노래)",
+        artist: "ななひら(나나히라)"
+    },
+    {
+        title: "クリスマスなんて興味ないけど(크리스마스 같은건 관심없지만)",
+        artist: "ななひら(나나히라)"
+    },
+    {
+        title: "ドキドキスパイ作戦(두근두근 스파이 작전)",
+        artist: "ななひら(나나히라)"
+    },
+    {
+        title: "お願い！コンコンお稲荷さま(부탁해! 콩콩 여우신님)",
+        artist: "ななひら(나나히라)"
+    },
+    {
+        title: "",
+        artist: "ななひら(나나히라)"
+    },
+    {
+        title: "Coalescence",
+        artist: "Chris Christodoulou"
+    },
+    {
+        title: "…con lentitud poderosa",
+        artist: "Chris Christodoulou"
+    },
+    {
+        title: "NAI NAI GIRL'S PRIDE",
+        artist: "健屋花那(수코야 카나)"
+    },
+    {
+        title: "Vampire",
+        artist: "Kirara Magic"
+    },
+    {
+        title: "ミライパスポート(미래 여권)",
+        artist: "EmoCosine"
+    },
+    {
+        title: "GHOST",
+        artist: "Neko Hacker"
+    },
+    {
+        title: "Home Sweet Home",
+        artist: "Neko Hacker"
+    },
+    {
+        title: "Sweet Dreams",
+        artist: "Neko Hacker"
+    },
+    {
+        title: "くいしんぼハッカー(식탐 해커)",
+        artist: "Neko Hacker"
+    },
+    {
+        title: "ジャックポットチャンス(잭팟 찬스)",
+        artist: "ଳをとは(오토하)"
+    },
+    {
+        title: "アイワナムチュー(아이 워너 무츄)",
+        artist: "MAISONdes"
+    },
+    {
+        title: "トウキョウ・シャンディ・ランデヴ(도쿄 섄디 랑데부)",
+        artist: "MAISONdes"
+    },
+    {
+        title: "アイウエ(아이우에)",
+        artist: "MAISONdes"
+    },
+    {
+        title: "Haunted Dance",
+        artist: "Mr.Asyu"
+    },
+    {
+        title: "Magic Show",
+        artist: "Mr.Asyu"
+    },
+    {
+        title: "ハローマイトリート(헬로 마이 트리트)",
+        artist: "MKLNtic"
+    },
+    {
+        title: "FAKE IDOL",
+        artist: "藍月なくる(아이츠키 나쿠루)"
+    },
+    {
+        title: "うまぴょい伝説(우마뾰이 전설)",
+        artist: "本田晃弘(혼다 아키히로)"
+    },
+    {
+        title: "Reminiscence",
+        artist: "technoplanet"
+    },
+    {
+        title: "水平線のような僕らへ(수평선 같은 우리에게)",
+        artist: "Vivid Lila"
+    },
+    {
+        title: "曖昧アティチュード(애매한 태도)",
+        artist: "rejection"
+    },
+    {
+        title: "スイートシンパシー(스위트 심퍼시)",
+        artist: "rejection"
+    },
+    {
+        title: "White Canvas",
+        artist: "rejection"
+    },
+    {
+        title: "もう一回をエンドレス(한 번 더를 엔드리스)",
+        artist: "rejection"
+    },
+    {
+        title: "イシュカン･コミュニケーション(이종간 커뮤니케이션)",
+        artist: "佐藤純一(사토 준이치)"
+    },
+    {
+        title: "ワンルーム・ディスコ(원룸 디스코) ななひら(나나히라)ver.",
+        artist: "Perfume"
+    },
+    {
+        title: "幸福なわがまま(행복한 억지)",
+        artist: "三月のパンタシア(삼월의 판타시아)"
+    },
+    {
+        title: "メリーゴーランド(회전목마)",
+        artist: "Ririko"
+    },
+    {
+        title: "ヒャダインのカカカタ☆カタオモイ-C(햐다인의 짝짝짝☆짝사랑-C)",
+        artist: "前山田 健一(마에야마다 켄이치) "
+    },
+    {
+        title: "String Theocracy",
+        artist: "Mili"
+    },
+    {
+        title: "world.execute(me);",
+        artist: "Mili"
+    },
+    {
+        title: "おとなしく好きになって(조용히 좋아해 줘) (YUKIYANAGI Remix)",
+        artist: "中村さんそ(나카무라 산소)"
+    },
+    {
+        title: "もうそう♥えくすぷれす(망상♥익스프레스)",
+        artist: "神前暁(고사키 사토루)"
+    },
+    {
+        title: "白金ディスコ(백금 디스코)",
+        artist: "神前暁(고사키 사토루)"
+    },
+    {
+        title: "青空のラプソディ(푸른 하늘의 랩소디)",
+        artist: "fhána"
+    },
+    {
+        title: "インドア系ならトラックメイカー(인도어계라면 트랙메이커)",
+        artist: "Yunomi"
+    },
+    {
+        title: "はんぶんこ花火(반쪽 불꽃놀이)",
+        artist: "Yunomi"
+    }
 ];
 
 
